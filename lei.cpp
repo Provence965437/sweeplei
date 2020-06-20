@@ -8,7 +8,7 @@ int mouseDown(int map[][12]);
 HWND hwnd;
 void init()
 {
-	initgraph(500, 500);
+	hwnd=initgraph(500, 500);
 
 	//定义二维数组，多加两行两列。这里还挺有意思的，之前做五子棋，直接做判断对于边界点做特殊限制。很明显更麻烦。
 	//随机函数种子
